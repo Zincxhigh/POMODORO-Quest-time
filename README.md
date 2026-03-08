@@ -60,12 +60,8 @@ JSON - Session persistence
 
 Railway - Production hosting
 
-🤝 For Flavourtown Hack Club
-Share this link: https://yourproject.railway.app/docs
-Everyone can test your API live - no setup needed!
-
 📄 License
 MIT - Use freely for hackathons, projects, learning!
 
-Built by Noordin Hamed | #Flavourtown #HackClub 🎉
+Built by zincxhigh | #Flavourtown #HackClub 🎉
 
