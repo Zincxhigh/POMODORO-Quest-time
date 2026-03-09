@@ -2,10 +2,18 @@ from fastapi import FastAPI, HTTPException
 from datetime import datetime
 from pydantic import BaseModel
 from typing import List
+from fastapi.middleware.cors import CORSMiddleware
 import json
 import os
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class sessionstart(BaseModel):
     subject: str = "General study"
@@ -17,12 +25,12 @@ class sessionresponse(BaseModel):
 sessions: List[dict] = []
 try:
     if os.path.exists("sessions.json"):
-        with open("sessions.json", "r") as f:
+        with open("sessions.json", "r") as f: 
             sessions = json.load(f)
 except Exception as e:
     print(f"Load error: {e}")
 
-current_sessions: dict | None = None  
+current_sessions: dict | None = None
 
 @app.post("/start", response_model=sessionresponse)
 def start_session(start_data: sessionstart):
