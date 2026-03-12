@@ -6,14 +6,14 @@ and click the start vutton to start this session
 
 ## Backend
 
-=> python
-=> Fastapi
+* => python
+* => Fastapi
 
 ## Frontend
 
-=>HTML
-=>CSS
-=>Javascript
+* =>HTML
+* =>CSS
+* =>Javascript
 
 # AI usage
 Since I am a beginner in both fast api and frontend I decieded to use only for te frontend
