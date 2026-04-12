@@ -16,7 +16,8 @@ and click the start vutton to start this session
 * =>Javascript
 
 # AI usage
-Since I am a beginner in both fast api and frontend I decieded to use AI only for the frontend For the backend I only used it to get the logic of the Fast api
+People were saying I basically made this fully with ai before bec of my bad grammer but let me be clear I only used AI for the base only the base everything else
+was done by me
 
 # Future improvements
 * Adding other studies features like Flash cards
